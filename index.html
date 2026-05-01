@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohamed Yasser Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Mohamed Yasser Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Mohamed Yasser</h1>
-        <p>Mechatronics Engineer</p>
-    </header>
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mohamed Yasser</a>
+  </div>
+</nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Mechatronics Engineer passionate about robotics, automation, and system design.
-        </p>
-    </section>
+<!-- Hero Section -->
+<section class="text-center p-5 bg-light">
+  <h1>Mechatronics Engineer</h1>
+  <p>Robotics | Automation | System Design</p>
+</section>
 
-    <section id="projects">
-        <h2>Projects</h2>
+<!-- About -->
+<section class="container my-5">
+  <h2>About Me</h2>
+  <p>
+    Passionate Mechatronics Engineer with experience in Arduino, SolidWorks, and embedded systems.
+  </p>
+</section>
 
-        <div class="project">
-            <h3>Smart Temperature Control</h3>
-            <p>Arduino-based system using DHT22 sensor.</p>
-            <a href="#">View Project</a>
+<!-- Projects -->
+<section class="container my-5">
+  <h2>Projects</h2>
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <div class="card mb-4">
+        <img src="project1.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5>Smart Temperature System</h5>
+          <p>Arduino + DHT22 + Relay control system.</p>
+          <a href="#" class="btn btn-dark">View Project</a>
         </div>
+      </div>
+    </div>
 
-        <div class="project">
-            <h3>Robotic Arm</h3>
-            <p>Designed and controlled robotic arm using motors.</p>
-            <a href="#">View Project</a>
+    <div class="col-md-6">
+      <div class="card mb-4">
+        <img src="project2.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5>Robotic Arm</h5>
+          <p>Motor-controlled robotic arm design.</p>
+          <a href="#" class="btn btn-dark">View Project</a>
         </div>
+      </div>
+    </div>
 
-    </section>
+  </div>
+</section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>SolidWorks</li>
-            <li>Arduino</li>
-            <li>MATLAB</li>
-            <li>PLC</li>
-        </ul>
-    </section>
+<!-- Skills -->
+<section class="container my-5">
+  <h2>Skills</h2>
+  <ul>
+    <li>SolidWorks</li>
+    <li>Arduino</li>
+    <li>MATLAB</li>
+    <li>PLC</li>
+  </ul>
+</section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: your@email.com</p>
-    </section>
+<!-- Contact -->
+<section class="container my-5">
+  <h2>Contact</h2>
+  <p>Email: your@email.com</p>
+</section>
 
-    <footer>
-        <p>© 2026 Mohamed Yasser</p>
-    </footer>
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 Mohamed Yasser
+</footer>
 
 </body>
 </html>
