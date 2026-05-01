@@ -1,39 +1,12 @@
 body {
-    font-family: Arial;
-    margin: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-    background: white;
-    border-radius: 10px;
+  font-family: Arial;
 }
 
 h2 {
-    color: #333;
+  margin-bottom: 20px;
 }
 
-.project {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-left: 4px solid #333;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
+.card img {
+  height: 200px;
+  object-fit: cover;
 }
